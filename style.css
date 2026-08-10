@@ -1,1 +1,33 @@
-
+body {
+    background: #f4f6f9;
+    font-family: 'Vazir', 'IRANSans', sans-serif;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.logo i {
+    color: #e74c3c;
+    margin-left: 10px;
+}
+.card-stats {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+.card-stats:hover {
+    transform: translateY(-5px);
+}
+.badge-good {
+    background: #27ae60;
+    color: white;
+}
+.badge-bad {
+    background: #e74c3c;
+    color: white;
+}
+.btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
